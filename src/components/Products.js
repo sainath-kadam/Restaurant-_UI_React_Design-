@@ -20,7 +20,7 @@ const Products = () => {
                 <img src={item.img} alt="" />
               </div>
               <div className="content">
-                <h3>fresh coffee</h3>
+                <h3>{item.title}</h3>
                 <div className="stars">
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
@@ -29,7 +29,7 @@ const Products = () => {
                   <i className="fas fa-star-half-alt"></i>
                 </div>
                 <div className="price">
-                  $15.99 <span>$20.99</span>
+                  {item.price} <span>$20.99</span>
                 </div>
               </div>
             </div>

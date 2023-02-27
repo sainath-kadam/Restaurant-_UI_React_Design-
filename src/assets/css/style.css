@@ -42,6 +42,7 @@ section {
 }
 
 .heading {
+  text-decoration-line: underline;  
   text-align: center;
   color: #fff;
   text-transform: uppercase;

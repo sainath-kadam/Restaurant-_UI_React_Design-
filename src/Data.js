@@ -20,21 +20,33 @@ import blogImage3 from "./assets/images/blog-3.jpeg";
 const menu = [
   {
     img: menuImage1,
+    price: '$20',
+    title: 'burger'
   },
   {
     img: menuImage2,
+    price: '$22',
+    title: 'testy stick'
   },
   {
     img: menuImage3,
+    price: '$23',
+    title: 'C65'
   },
   {
     img: menuImage4,
+    price: '$24',
+    title: 'Pizza'
   },
   {
     img: menuImage5,
+    price: '$20',
+    title: 'juice '
   },
   {
     img: menuImage6,
+    price: '$24',
+    title: 'Coffee'
   },
 ];
 
@@ -56,34 +68,55 @@ const cart = [
 const product = [
   {
     img: productImage1,
+    title:'Burger',
+    price:'$18'
   },
   {
     img: productImage2,
+    title:'Special Pizza',
+    price:'$20'
   },
   {
     img: productImage3,
+    title:'Ice Cram',
+    price:'$10'
   },
 ];
 const review = [
   {
     img: reviewImage1,
+    name:'shiva',
+    rating:'fas fa-star'
   },
   {
     img: reviewImage2,
+    name:'aji',
+    rating:'fas fa-star'
   },
   {
     img: reviewImage3,
+    name:'tejas',
+    rating:'fas fa-star'
   },
 ];
 const blog = [
   {
     img: blogImage1,
+    title:"Spicy slice",
+    disc: "Food is a vital source of energy and nutrients that our bodies require to function properly and maintain good health.",
+    admin:"Sainath"
   },
   {
     img: blogImage2,
+    title:"Bread omlete with Chese",
+    disc: " The type and quality of food we consume can have a significant impact on our physical and mental well-being, as well as our risk",
+    admin:"Sainath"
   },
   {
     img: blogImage3,
+    title:"Juice",
+    disc: " Food is important for providing energy and nutrients to our bodies, and the quality of our diet can impact our health and disease risk.",
+    admin:"Sainath"
   },
 ];
 export { menu, cart, product, review, blog };

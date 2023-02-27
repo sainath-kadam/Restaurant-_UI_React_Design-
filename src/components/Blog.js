@@ -16,12 +16,11 @@ const Blog = () => {
               </div>
               <div class="content">
                 <a href="#" class="title">
-                  tasty and refreshing spices
+                 {item.title}
                 </a>
-                <span>by sai / 26th feb,2023 </span>
+                <span>by {item.admin}/ 26th feb,2023 </span>
                 <p>
-                "The flavors danced upon my tongue,
-A culinary symphony that left me stunned."
+               {item.disc}
                 </p>
                 <a href="#" class="btn">
                   read more

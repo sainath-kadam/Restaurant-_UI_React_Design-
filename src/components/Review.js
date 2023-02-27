@@ -17,7 +17,7 @@ const Review = () => {
               "The food at this restaurant was incredible! Every dish we ordered was packed with flavor and cooked to perfection. We especially loved the steak and seafood options. Highly recommend!"
               </p>
               <img src={item.img} className="user" alt="" />
-              <h3>shiva</h3>
+              <h3>{item.name}</h3>
               <div className="stars">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
